@@ -1,0 +1,25 @@
+{
+  "name": "sos",
+  "version": "1.0.0",
+  "description": "Realiser un site statique mobile firste pour une association apportant une aide a des sans abris \r sOutils : Bootstrap  / Github / VS code / Adobe xd\r Minimun 2 pages : Une sur l'association elle meme, une autre portant sur des evenements",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FawazMohamed34/sos-sansdomicile.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FawazMohamed34/sos-sansdomicile/issues"
+  },
+  "homepage": "https://github.com/FawazMohamed34/sos-sansdomicile#readme",
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.0",
+    "jquery": "^3.7.0"
+  }
+}
