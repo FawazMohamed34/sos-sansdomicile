@@ -156,6 +156,11 @@ font-size: 0.8rem;
   background-color: #333333;
 }
 
+
+.bg-card{
+  background: $brand-color
+}
+
 .btn-event{
   @include btn-radius;
   background: seagreen;

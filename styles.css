@@ -139,6 +139,10 @@ main .parallax h1 {
   background-color: #333333;
 }
 
+.bg-card {
+  background: #FDCEA9;
+}
+
 .btn-event {
   border-radius: 3rem;
   background: seagreen;
