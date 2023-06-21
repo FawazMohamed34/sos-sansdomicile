@@ -11,10 +11,6 @@ body {
   background: #84A583;
 }
 
-.myNav {
-  margin-bottom: -5px;
-}
-
 .brandColorDarken {
   background: #fdc395;
 }
@@ -24,17 +20,50 @@ a {
 }
 
 header {
-  background: rgba(83, 77, 77, 0.56);
   height: 90px;
+  background: rgba(83, 77, 77, 0.56);
 }
 header .donationLink {
   background: #EA495F;
-  font-size: calc(1.5rem + 0.6vw);
-  color: white;
   border-radius: 3rem;
 }
-header:hover {
+header a {
+  font-size: calc(1.5rem + 0.6vw);
+  color: white;
+}
+header a:hover {
   color: #FDCEA9;
+}
+
+.myNavImg {
+  margin-bottom: -5px;
+}
+
+.navbar-brand {
+  background: #FDCEA9;
+}
+
+@media (max-width: 992px) {
+  .myNavbarCollapse {
+    background: rgba(83, 77, 77, 0.56);
+    z-index: 2;
+    margin-top: 12px;
+  }
+}
+
+.myNavigation {
+  padding: 0.5rem 1rem;
+  padding-left: 0;
+  display: block;
+  color: white;
+}
+@media (max-width: 992px) {
+  .myNavigation {
+    margin-bottom: 40px;
+  }
+}
+.myNavigation:hover {
+  color: #fdc89f;
 }
 
 .brandColorClass {
@@ -95,31 +124,6 @@ main .parallax h1 {
 .hover-link:hover {
   transform: scale(1.1);
   background: #FDCEA9;
-}
-
-.myNavbarCollapse {
-  color: rgba(83, 77, 77, 0.56);
-}
-@media (max-width: 992px) {
-  .myNavbarCollapse {
-    z-index: 2;
-    background: rgba(83, 77, 77, 0.56);
-    margin-top: 12px;
-  }
-}
-
-.myNavigation {
-  padding: 0.5rem 1rem;
-  padding-left: 0;
-  display: block;
-}
-@media (max-width: 992px) {
-  .myNavigation {
-    margin-bottom: 40px;
-  }
-}
-.myNavigation:hover {
-  color: #fdc89f;
 }
 
 .event {

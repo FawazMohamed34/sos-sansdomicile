@@ -7,6 +7,7 @@ $red :#EA495F;
 $sm : 576px;
 $md: 768px;
 $lg:992px;
+
 @mixin btn-radius{
   border-radius: 3rem;
 }
@@ -22,9 +23,6 @@ body{
   background: $pistache;
 
 }
-.myNav{
-  margin-bottom: -5px;
-}
 
 .title{
 @extend %title-presentation;
@@ -39,20 +37,54 @@ a {
 }
 
 header{
-  background: $dark-transparent;
   height: 90px;
+  background: $dark-transparent;
 
-.donationLink{
+  .donationLink{
     background: $red;
+    @include btn-radius;
+  }
+
+  a{
     font-size: calc(1.5rem + .6vw);
     color:white;
-    @include btn-radius;
-      }  
      &:hover{
        color: $brand-color;
      }
   }
+}
+.myNavImg{
+  margin-bottom: -5px;
+}
 
+.navbar-brand{
+  background: $brand-color;
+}
+//Barre de navigation
+.myNavbarCollapse{
+
+  @media(max-width :$lg ){ // Max-width 992px 
+    background: $dark-transparent;
+    z-index: 2;
+    margin-top: 12px;
+    }
+}
+
+//Nav-Item
+  .myNavigation{
+    padding: 0.5rem 1rem;
+    padding-left: 0;
+    display: block;
+    color: white;
+  @media(max-width: $lg){
+  margin-bottom: 40px;
+  }
+  &:hover{
+    color: $brand-100;
+    }
+  }
+
+  
 .brandColorClass{
 background: $brand-color;
 }
@@ -109,33 +141,6 @@ main{
 .hover-link:hover{
   transform: scale(1.1);
   background: $brand-color;
-}
-
-//Barre de navigation
-.myNavbarCollapse{
-  color: $dark-transparent;
-  @media(max-width :$lg ){ // Max-width 992px 
-
-    z-index: 2;
-    background: $dark-transparent;
-    margin-top: 12px;
-
-    }
-}
-
-//Nav-Item
-  .myNavigation{
-    padding: 0.5rem 1rem;
-    padding-left: 0;
-    display: block;
-
-  @media(max-width: $lg){
-  margin-bottom: 40px;
-  }
-  &:hover{
-    color: $brand-100;
-    }
-
 }
 
 .event {
