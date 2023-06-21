@@ -15,7 +15,7 @@ body {
   margin-bottom: -5px;
 }
 
-.brand-bg-darken {
+.brandColorDarken {
   background: #fdc395;
 }
 
@@ -24,22 +24,20 @@ a {
 }
 
 header {
-  background: rgba(83, 77, 77, 0.664);
+  background: rgba(83, 77, 77, 0.56);
   height: 90px;
 }
-header .donation {
+header .donationLink {
   background: #EA495F;
-  border-radius: 3rem;
-}
-header a {
   font-size: calc(1.5rem + 0.6vw);
   color: white;
+  border-radius: 3rem;
 }
-header a:hover {
+header:hover {
   color: #FDCEA9;
 }
 
-.brand {
+.brandColorClass {
   background: #FDCEA9;
 }
 
@@ -48,8 +46,7 @@ header a:hover {
 }
 
 main .parallax {
-  background: url(images/sansabri.jpg) left bottom;
-  background-position: left bottom 50px; /* Déplace l'image plus vers le bas */
+  background: url(images/sansabri.jpg) no-repeat left bottom;
   background-size: cover;
   height: 500px;
   background-attachment: fixed;
@@ -59,14 +56,12 @@ main .parallax h1 {
 }
 @media screen and (min-width: 576px) {
   main .parallax {
-    background: url(images/sansabri-sm.jpg) left bottom;
-    
+    background: url(images/sansabri-sm.jpg) left;
   }
 }
 @media screen and (min-width: 768px) {
   main .parallax {
     background: url(images/sansabri-md.jpg) left bottom;
-    background-position: left bottom 80px; /* Déplace l'image plus vers le bas */
     height: 600px;
     background-size: cover;
     background-attachment: fixed;
@@ -86,7 +81,7 @@ main .parallax h1 {
   background-color: #b8152b;
 }
 .myAlert:hover {
-  background: #e8374f;
+  background: #e7324b;
 }
 
 .link {
@@ -102,10 +97,13 @@ main .parallax h1 {
   background: #FDCEA9;
 }
 
+.myNavbarCollapse {
+  color: rgba(83, 77, 77, 0.56);
+}
 @media (max-width: 992px) {
   .myNavbarCollapse {
     z-index: 2;
-    background: rgba(83, 77, 77, 0.664);
+    background: rgba(83, 77, 77, 0.56);
     margin-top: 12px;
   }
 }
@@ -117,13 +115,11 @@ main .parallax h1 {
 }
 @media (max-width: 992px) {
   .myNavigation {
-    font-weight: bold;
     margin-bottom: 40px;
   }
-  .myNavigation:hover {
-    box-shadow: rgba(46, 38, 38, 0.582) 5px 9px 5px;
-    color: rgb(41, 36, 36);
-  }
+}
+.myNavigation:hover {
+  color: #fdc89f;
 }
 
 .event {
