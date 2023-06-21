@@ -16,6 +16,7 @@ node_modules/
 /build/logs
 /build/coverage
 /app/tests/_log
+/node_modules
 composer.phar
 .DS_Store
 /.idea

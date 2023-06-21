@@ -1,0 +1,150 @@
+.title {
+  height: 250px;
+  background: #FDCEA9;
+}
+
+main {
+  z-index: 1;
+}
+
+body {
+  background: #84A583;
+}
+
+.myNav {
+  margin-bottom: -5px;
+}
+
+.brand-bg-darken {
+  background: #fdc395;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background: rgba(83, 77, 77, 0.664);
+  height: 90px;
+}
+header .donation {
+  background: #EA495F;
+  border-radius: 3rem;
+}
+header a {
+  font-size: calc(1.5rem + 0.6vw);
+  color: white;
+}
+header a:hover {
+  color: #FDCEA9;
+}
+
+.brand {
+  background: #FDCEA9;
+}
+
+.block {
+  height: 250px;
+}
+
+main .parallax {
+  background: url(images/sansabri.jpg) left bottom;
+  background-position: left bottom 50px; /* Déplace l'image plus vers le bas */
+  background-size: cover;
+  height: 500px;
+  background-attachment: fixed;
+}
+main .parallax h1 {
+  background: rgba(27, 26, 26, 0.95);
+}
+@media screen and (min-width: 576px) {
+  main .parallax {
+    background: url(images/sansabri-sm.jpg) left bottom;
+    
+  }
+}
+@media screen and (min-width: 768px) {
+  main .parallax {
+    background: url(images/sansabri-md.jpg) left bottom;
+    background-position: left bottom 80px; /* Déplace l'image plus vers le bas */
+    height: 600px;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+}
+@media screen and (min-width: 992px) {
+  main .parallax {
+    background: url(images/sansabri-lg.jpg) bottom;
+    height: 600px;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+}
+
+.myAlert {
+  border-radius: 3rem;
+  background-color: #b8152b;
+}
+.myAlert:hover {
+  background: #e8374f;
+}
+
+.link {
+  background-color: #f5a4af;
+}
+
+.hover:hover {
+  transform: scale(1.1);
+}
+
+.hover-link:hover {
+  transform: scale(1.1);
+  background: #FDCEA9;
+}
+
+@media (max-width: 992px) {
+  .myNavbarCollapse {
+    z-index: 2;
+    background: rgba(83, 77, 77, 0.664);
+    margin-top: 12px;
+  }
+}
+
+.myNavigation {
+  padding: 0.5rem 1rem;
+  padding-left: 0;
+  display: block;
+}
+@media (max-width: 992px) {
+  .myNavigation {
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  .myNavigation:hover {
+    box-shadow: rgba(46, 38, 38, 0.582) 5px 9px 5px;
+    color: rgb(41, 36, 36);
+  }
+}
+
+.event {
+  background: #fdc89f;
+}
+
+.footer-end {
+  color: white;
+  font-size: 0.8rem;
+}
+
+.bg-endFooter {
+  background-color: #333333;
+}
+
+.btn-event {
+  border-radius: 3rem;
+  background: seagreen;
+  color: white;
+}
+
+.mytitle-card {
+  color: black;
+}/*# sourceMappingURL=styles.css.map */
